@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# HR Employee Leave Management Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The HR Employee Leave Management Tool is a simple React-based web application that helps HR teams manage employee leave requests efficiently.
 
-In the project directory, you can run:
+The application allows employees to apply for leave, view leave status, and maintain leave history. HR personnel can approve or reject leave requests and filter records by employee name.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Apply Leave Form
 
-### `npm test`
+* Enter Employee Name
+* Select Leave Date
+* Provide Leave Reason
+* Submit Leave Request
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Leave Status Management
 
-### `npm run build`
+* Pending
+* Approved
+* Rejected
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Filter by Employee
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Search leave records using employee name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Leave History Display
 
-### `npm run eject`
+* View all submitted leave requests.
+* Displays employee name, leave date, reason, and status.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 5. Approve / Reject Requests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* HR can approve or reject pending leave requests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
 
-### Code Splitting
+src/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+├── App.js
 
-### Analyzing the Bundle Size
+├── App.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+└── index.js
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## How to Run the Project
 
-### Advanced Configuration
+### Step 1: Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+### Step 2: Start the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+### Step 3: Open Browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit:
+
+http://localhost:3000
+
+---
+
+## Workflow
+
+1. Employee fills the leave application form.
+2. Leave request is added with "Pending" status.
+3. HR reviews the request.
+4. HR approves or rejects the request.
+5. Leave history is updated automatically.
+6. Users can filter leave records by employee name.
+
+---
+
+## Expected Output
+
+The application provides:
+
+* Leave Application Form
+* Employee Search Filter
+* Leave History Table
+* Status Tracking System
+* Approve and Reject Actions
+
+---
+
+## Conclusion
+
+The HR Employee Leave Management Tool simplifies leave request management by providing an easy-to-use interface for applying, tracking, approving, and reviewing employee leave records. This project demonstrates the use of React state management, form handling, filtering, and dynamic UI updates.
